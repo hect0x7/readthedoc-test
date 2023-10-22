@@ -7,9 +7,9 @@ version: 2
 #   tools:
 #     python: "3.11"
 mkdocs:
-  configuration: mkdocs.yml
+  configuration: assets/docs/mkdocs.yml
 
 # Optionally declare the Python requirements required to build your docs
 python:
    install:
-   - requirements: docs/requirements.txt
+   - requirements: assets/docs/requirements.txt
